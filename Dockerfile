@@ -40,6 +40,7 @@ RUN docker-php-ext-enable \
     xdebug
 RUN docker-php-ext-install \
     curl \
+    exif \
     iconv \
     mbstring \
     pdo \
